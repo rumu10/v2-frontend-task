@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/v2-frontend-task/static/css/main.5f361e03.chunk.css",
+    "main.js": "/v2-frontend-task/static/js/main.f4b500c5.chunk.js",
+    "main.js.map": "/v2-frontend-task/static/js/main.f4b500c5.chunk.js.map",
+    "runtime-main.js": "/v2-frontend-task/static/js/runtime-main.487b5a73.js",
+    "runtime-main.js.map": "/v2-frontend-task/static/js/runtime-main.487b5a73.js.map",
+    "static/js/2.ce71dadf.chunk.js": "/v2-frontend-task/static/js/2.ce71dadf.chunk.js",
+    "static/js/2.ce71dadf.chunk.js.map": "/v2-frontend-task/static/js/2.ce71dadf.chunk.js.map",
+    "index.html": "/v2-frontend-task/index.html",
+    "precache-manifest.c4023b4a48d5c0e0eecdd925637e4b1b.js": "/v2-frontend-task/precache-manifest.c4023b4a48d5c0e0eecdd925637e4b1b.js",
+    "service-worker.js": "/v2-frontend-task/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/v2-frontend-task/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.ce71dadf.chunk.js.LICENSE.txt": "/v2-frontend-task/static/js/2.ce71dadf.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/v2-frontend-task/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.487b5a73.js",
+    "static/js/2.ce71dadf.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.f4b500c5.chunk.js"
+  ]
+}
