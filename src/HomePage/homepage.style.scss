@@ -1,0 +1,16 @@
+.homepage {
+    display: flex;
+    flex-direction: row;
+
+    .first {
+      padding-right: 0.5px;
+      padding-left: 0.5px;
+      border-right: 1px solid #ced4da;
+    }
+
+    .second , .third {
+      padding-right: 0.5px;
+      padding-left: 0;
+      border-right: 1px solid #ced4da;
+    }
+  }

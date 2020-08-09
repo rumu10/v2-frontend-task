@@ -1,0 +1,120 @@
+.task_details {
+    margin: 30px;
+    .task_name {
+        display: flex;
+        align-items: center;
+        margin:auto;
+        width:100% !important;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+        .task_icon{
+            margin: 10px;
+            padding: 10px;
+            transition: margin 300ms;
+            font-size:25px;
+            color: #ced4da;
+          }
+
+        .task_des {
+            padding: 10px;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+    }
+
+    .time_details {
+        margin: 0;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        
+        .detail_col {
+            display: flex;
+            align-items: center;
+            margin:auto;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            height: 40px;
+
+            .task_icon{
+                margin: 10px;
+                padding: 10px;
+                transition: margin 300ms;
+                font-size:20px;
+                color: #ced4da;
+              }
+              .value {
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+        }
+
+        .date, .time {
+            padding-left: 0;
+            padding-right: 10px;
+        }
+        .reminder{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .progress-bar {
+        background-color: black;
+    }
+    .pg {
+        height: .5rem;
+    }
+    .pbar {
+        font-size: 10px;
+    }
+
+    .subtask{
+
+        .value {
+            font-size: 14px;
+        }
+        .st{
+            margin-bottom:10px;
+            display: inline-block;
+        }
+
+        .cross_icon{
+            float: right;
+            color: #ced4da;
+        }
+    }
+    .subtask2{
+
+        .value {
+            font-size: 14px;
+        }
+        .st2{
+            margin-bottom:10px;
+            display: inline-block;
+        }
+
+        .cross_icon2{
+            float: right;
+            color: #ced4da;
+        }
+    }
+
+    .add_task {
+        background-color: #e9ecef;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .light {
+        background-color: #e9ecef;
+        width: 100%;
+    }
+    .dark {
+        background-color: black ;
+        width: 100%;
+    }
+    
+}

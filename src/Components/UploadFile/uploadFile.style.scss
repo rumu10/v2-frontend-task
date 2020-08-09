@@ -1,0 +1,19 @@
+.upload {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  .up_box {
+        border: 2px #ced4da;
+        border-style: dashed;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        font-size: 13px;
+        color:#ced4da ;
+    }
+
+    .up_icon {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 250px;
+        margin-top: 15px;
+    }
+}
