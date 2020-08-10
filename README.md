@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Features Done:
+
+1. This create-react-app is fully component-based and reusable.2. In the search bar section, I have added filtering by person name functionality but only for the Overdue section. As the rest will be same depending on backend data.3. In the Upload Attachment section, you can upload file and also drag and drop files from the local computer. 
+4. Uploaded files can be removed as well.
+5. Other sections are static as those will be depending on backend data.
+
 ## Available Scripts
 
 In the project directory, you can run:
