@@ -1,24 +1,31 @@
 .upload {
     margin-top: 20px !important;
     margin-bottom: 20px !important;
-  .up_box {
-        border: 2px #ced4da;
-        border-style: dashed;
-        border-radius: 0.25rem;
-        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-        font-size: 13px;
-        color:#ced4da ;
-    }
 
     .up_icon {
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
-        margin-left: 250px;
-        margin-top: 15px;
     }
 
     .uploaded_files {
         margin-top: 15px;
-        margin-left: 15px;
+    }
+
+    ul {
+        margin: 0;
+      }
+      
+      .dropzone {
+        text-align: center;
+        padding: 20px;
+        border: 3px dashed #eeeeee;
+        background-color: #fafafa;
+        color: #bdbdbd;
+        border-radius: 7px;
+        margin-bottom: 20px;
+      }
+    .file_name {
+        font-size: 12px;
+        color: gray;
     }
 }
