@@ -9,7 +9,11 @@ class SearchBox extends Component {
         return (
             <div>
                 <Form inline>
-                    <FormControl type="text" placeholder= {this.props.placeholder} className="mr-sm-2 search_field" />
+                    <FormControl type="text" 
+                        placeholder= {this.props.placeholder} 
+                        className="mr-sm-2 search_field"
+                        onChange={this.props.handleChange} 
+                    />
                     <span className="fa fa-search search_icon"></span>
                 </Form>
             </div>

@@ -30,10 +30,15 @@ class AssignedPersonList extends Component {
                     id: 1,
                     img: img
                 }
-            ]
+            ],
+            searchfeild: ''
         }
     }
     render() {
+        const {overdue_personList ,searchfeild}=this.state;
+        const filrertednames = overdue_personList.filter(nm =>
+            nm.name.toLowerCase().includes(searchfeild.toLowerCase())
+          )
         return (
             <div className="person_list">
                 <Header part="first" />
@@ -43,7 +48,8 @@ class AssignedPersonList extends Component {
                             <i className="fa fa-th-large g_icon" aria-hidden="true"></i>
                         </div>
                         <div className="col-10 search">
-                            <SearchBox placeholder="search person...." />
+                            <SearchBox placeholder="search person...."  
+                                handleChange={e => {this.setState({searchfeild: e.target.value })}}/>
                         </div>
                     </div>
                     <p className="text-center at" type="button">Add Task</p>
@@ -53,7 +59,7 @@ class AssignedPersonList extends Component {
                     <div className="list">
                         <div className="work_status"><p className="status_title">Overdue</p></div>
                         <ul className="list-group">
-                            {this.state.overdue_personList.map(person => (
+                            {filrertednames.map(person => (
                                 <Person
                                     person={person}
                                     key={person.id}
