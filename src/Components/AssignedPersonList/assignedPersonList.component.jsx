@@ -1,24 +1,34 @@
 import React, { Component } from 'react'
 import Header from '../Header/header.component';
 import Person from '../Person/person.component';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import * as Icon from 'react-bootstrap-icons';
+import SearchBox from '../SearchBox/searchbox.component';
+import img from '../../Asset/img_2.jpg';
+import img2 from '../../Asset/img_3.jpg';
 
 import './assignedpersonList.style.scss';
+
 class AssignedPersonList extends Component {
     constructor() {
         super();
 
         this.state = {
-            personList: [
+            overdue_personList: [
                 {
-                    name: "A",
-                    id: 1
+                    name: "Luccy Lee",
+                    id: 1,
+                    img: img
                 },
                 {
-                    name: "B",
-                    id: 2
+                    name: "Mike Wilson",
+                    id: 2,
+                    img: img2
+                }
+            ],
+            today_personList: [
+                {
+                    name: "Luccy Lee",
+                    id: 1,
+                    img: img
                 }
             ]
         }
@@ -27,23 +37,61 @@ class AssignedPersonList extends Component {
         return (
             <div className="person_list">
                 <Header part="first" />
-                <div className="">
-                    {/* <div className="grid_icon">
-                        <Icon.Grid />
-                    </div> */}
-                    <div className="search">
-                        <Form inline>
-                            <FormControl type="text" placeholder="Search.." className="mr-sm-2" />
-                        </Form>
+                <div>
+                    <div className="row section_1">
+                        <div className="col-2 grid_icon">
+                            <i className="fa fa-th-large g_icon" aria-hidden="true"></i>
+                        </div>
+                        <div className="col-10 search">
+                            <SearchBox placeholder="search person...." />
+                        </div>
                     </div>
-                </div>
-                <div className="list">
-                    {this.state.personList.map(person => (
-                        <Person
-                            person={person}
-                            key={person.id}
-                        />
-                    ))}
+                    <p className="text-center at" type="button">Add Task</p>
+                    <hr className="work_status_hr" />
+                    <div className="invite"><i className="fa fa-users" aria-hidden="true"></i> <span className="invite_text"> Invite a friend</span></div>
+                    <hr className="work_status_hr" />
+                    <div className="list">
+                        <div className="work_status"><p className="status_title">Overdue</p></div>
+                        <ul className="list-group">
+                            {this.state.overdue_personList.map(person => (
+                                <Person
+                                    person={person}
+                                    key={person.id}
+                                    status="overdue"
+                                />
+                            ))}
+                        </ul>
+                        <div className="work_status"><p className="status_title">Today</p></div>
+                        <ul className="list-group">
+                            {this.state.overdue_personList.map(person => (
+                                <Person
+                                    person={person}
+                                    key={person.id}
+                                    status="today"
+                                />
+                            ))}
+                        </ul>
+                        <div className="work_status"><p className="status_title">Later</p></div>
+                        <ul className="list-group">
+                            {this.state.today_personList.map(person => (
+                                <Person
+                                    person={person}
+                                    key={person.id}
+                                    status="later"
+                                />
+                            ))}
+                        </ul>
+                        <div className="work_status"><p className="status_title">Complete</p></div>
+                        <ul className="list-group">
+                            {this.state.today_personList.map(person => (
+                                <Person
+                                    person={person}
+                                    key={person.id}
+                                    status="complete"
+                                />
+                            ))}
+                        </ul>
+                    </div>
                 </div>
             </div>
         )

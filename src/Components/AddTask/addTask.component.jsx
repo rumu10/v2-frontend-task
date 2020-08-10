@@ -20,13 +20,13 @@ class AddTask extends Component {
                         <i className="fa fa-pencil-square-o task_icon"></i><span className="task_des">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</span>
                     </div>
                     <div className="row time_details">
-                        <div className="col-4 date">
+                        <div className="col-4 completion_date">
                             <h6>Date</h6>
                             <div className="detail_col">
                                 <i className="fa fa-calendar-o task_icon"></i><span className="value">Sun, Sep 26, 2019</span>
                             </div>
                         </div>
-                        <div className="col-4 time">
+                        <div className="col-4 completion_time">
                             <h6>Time</h6>
                             <div className="detail_col">
                                 <i className="fa fa-clock-o task_icon"></i><span className="value">8:10 AM</span>

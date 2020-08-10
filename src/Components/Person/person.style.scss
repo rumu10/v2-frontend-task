@@ -1,0 +1,59 @@
+li.items {
+    margin-bottom: 0 !important;
+}
+
+.img_section {
+    display: flex;
+    align-items: center;
+}
+.person_img {
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+    display: flex;
+    align-items: center;
+}
+
+.person_inbox , .icon_section {
+    color: black;
+}
+
+.text_section {
+    padding-left: 0 !important;
+}
+.icon_section {
+    float: right;
+    font-size: 15px;
+    color:#ced4da ;
+}
+
+.text {
+    font-size:12px;
+    margin-bottom: 7px !important;
+    color: gray;
+}
+
+.text_section h6, .text_section p {
+    margin-bottom:0;
+}
+
+.status_icon {
+    color: red;
+}
+
+.complete_icon {
+    color: green;
+}
+
+.time, .date {
+    font-size:.5em;
+    color:grey ;
+}
+
+.time {
+    margin-left: 15px;
+    font-size: 8px;
+}
+.text_section h6 {
+    font-size: 14px;
+}

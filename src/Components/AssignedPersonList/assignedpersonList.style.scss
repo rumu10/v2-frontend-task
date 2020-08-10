@@ -1,12 +1,50 @@
-.grid_icon {
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    // display: inline-block;
-
+.section_1{
+    margin:15px !important;
+    .grid_icon {
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+    }
+    
+    .g_icon {
+        margin-top: 8px;
+        margin-left: -5px;
+        font-size: 1.4rem;
+        color: #ced4da;
+    }
 }
 
-.search {
-    // float:right;
-    margin-left:15px;
+.at {
+    color:#ced4da ;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.invite {
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.invite_text {
+    font-size: 14px;
+    
+}
+
+.work_status {
+    background-color: #f0f3f5;
+    color: #ced4da;
+    text-align: center;
+}
+
+.work_status_hr{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.status_title {
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
 }
