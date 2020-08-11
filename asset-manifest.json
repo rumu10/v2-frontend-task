@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/v2-frontend-task/static/css/main.00f9a7ed.chunk.css",
-    "main.js": "/v2-frontend-task/static/js/main.4b65e30d.chunk.js",
-    "main.js.map": "/v2-frontend-task/static/js/main.4b65e30d.chunk.js.map",
+    "main.css": "/v2-frontend-task/static/css/main.025915db.chunk.css",
+    "main.js": "/v2-frontend-task/static/js/main.7e333f02.chunk.js",
+    "main.js.map": "/v2-frontend-task/static/js/main.7e333f02.chunk.js.map",
     "runtime-main.js": "/v2-frontend-task/static/js/runtime-main.487b5a73.js",
     "runtime-main.js.map": "/v2-frontend-task/static/js/runtime-main.487b5a73.js.map",
-    "static/js/2.545244de.chunk.js": "/v2-frontend-task/static/js/2.545244de.chunk.js",
-    "static/js/2.545244de.chunk.js.map": "/v2-frontend-task/static/js/2.545244de.chunk.js.map",
+    "static/js/2.5a4c93ed.chunk.js": "/v2-frontend-task/static/js/2.5a4c93ed.chunk.js",
+    "static/js/2.5a4c93ed.chunk.js.map": "/v2-frontend-task/static/js/2.5a4c93ed.chunk.js.map",
     "index.html": "/v2-frontend-task/index.html",
-    "precache-manifest.f9bc9858f1180710dbfe499f0f4b062d.js": "/v2-frontend-task/precache-manifest.f9bc9858f1180710dbfe499f0f4b062d.js",
+    "precache-manifest.f866a2473329dead639420fab128c120.js": "/v2-frontend-task/precache-manifest.f866a2473329dead639420fab128c120.js",
     "service-worker.js": "/v2-frontend-task/service-worker.js",
-    "static/css/main.00f9a7ed.chunk.css.map": "/v2-frontend-task/static/css/main.00f9a7ed.chunk.css.map",
-    "static/js/2.545244de.chunk.js.LICENSE.txt": "/v2-frontend-task/static/js/2.545244de.chunk.js.LICENSE.txt",
+    "static/css/main.025915db.chunk.css.map": "/v2-frontend-task/static/css/main.025915db.chunk.css.map",
+    "static/js/2.5a4c93ed.chunk.js.LICENSE.txt": "/v2-frontend-task/static/js/2.5a4c93ed.chunk.js.LICENSE.txt",
     "static/media/img_3.jpg": "/v2-frontend-task/static/media/img_3.76fd150c.jpg",
     "static/media/msexcel.png": "/v2-frontend-task/static/media/msexcel.fbb692fd.png",
     "static/media/msword.png": "/v2-frontend-task/static/media/msword.469ab0f1.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.487b5a73.js",
-    "static/js/2.545244de.chunk.js",
-    "static/css/main.00f9a7ed.chunk.css",
-    "static/js/main.4b65e30d.chunk.js"
+    "static/js/2.5a4c93ed.chunk.js",
+    "static/css/main.025915db.chunk.css",
+    "static/js/main.7e333f02.chunk.js"
   ]
 }
