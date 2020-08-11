@@ -44,8 +44,8 @@ class AssignedPersonList extends Component {
                 <Header part="first" />
                 <div>
                     <div className="row section_1">
-                        <div className="col-2 grid_icon">
-                            <i className="fa fa-th-large g_icon" aria-hidden="true"></i>
+                        <div className="col-2  g_icon">
+                            <i className="fa fa-th-large" aria-hidden="true"></i>
                         </div>
                         <div className="col-10 search">
                             <SearchBox placeholder="search person...."  

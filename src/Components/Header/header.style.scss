@@ -44,3 +44,15 @@
     margin-left:2%;
     float:left; 
 }
+
+@media (min-width: 768px) and (max-width: 1218px) { 
+    .ap {
+        float: right;
+        color: white;
+        font-size: 14px;
+        margin-left: 15px;
+        text-decoration: underline;
+        padding-top: 6px;
+        // margin-top: -40px;
+    }
+}

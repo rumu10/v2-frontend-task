@@ -1,16 +1,19 @@
-.section_1{
-    margin:15px !important;
-    .grid_icon {
-        border: 1px solid #ced4da;
-        border-radius: 0.25rem;
-        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
-    }
-    
+div.section_1{
+    margin:15px;
+    margin-bottom: 0;
     .g_icon {
-        margin-top: 8px;
-        margin-left: -5px;
-        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ced4da;
+        border-radius: 7px;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        font-size: 18px;
         color: #ced4da;
+        height: 40px;
+        width: 40px;
+    }
+    .search {
+        padding-right: 0;
     }
 }
 

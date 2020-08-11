@@ -43,11 +43,11 @@ class AddTask extends Component {
                     <p className="text-center pbar">{`${now}% complete`}</p>
                     <div className="subtask">
                         <div className="st"><i className="fa fa-check-square" aria-hidden="true"></i> <span className="value"> Subtask 1</span></div>
-                        <div className="cross_icon"><i className="fa fa-times" aria-hidden="true"></i></div>
+                        <div className="cross_icon"><i type ="button" className="fa fa-times" aria-hidden="true"></i></div>
                     </div>
                     <div className="subtask2">
                         <div className="st2"><i className="fa fa-check-square" aria-hidden="true"></i> <span className="value"> Subtask 2</span></div>
-                        <div className="cross_icon2"><i className="fa fa-times" aria-hidden="true"></i></div>
+                        <div className="cross_icon2"><i type ="button" className="fa fa-times" aria-hidden="true"></i></div>
                     </div>
                     <div className="add_task">
                         <div className="text-center text-success"> <i className="fa fa-plus" aria-hidden="true"></i> Add Subtask</div>

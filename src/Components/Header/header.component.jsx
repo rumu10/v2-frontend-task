@@ -15,8 +15,6 @@ class Header extends Component {
                                 <div className="navbar-brand user_name"> Sudipta</div>
                                 <div className="user_status">Status Will be Here</div>
                             </div>
-
-
                         </div>
 
                         : this.props.part == "second" ?

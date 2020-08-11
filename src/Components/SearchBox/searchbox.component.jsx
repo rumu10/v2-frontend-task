@@ -1,21 +1,13 @@
 import React, { Component } from 'react';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
 
 import './searchbox.style.scss';
 
 class SearchBox extends Component {
     render() {
         return (
-            <div>
-                <Form inline>
-                    <FormControl type="text" 
-                        placeholder= {this.props.placeholder} 
-                        className="mr-sm-2 search_field"
-                        onChange={this.props.handleChange} 
-                    />
-                    <span className="fa fa-search search_icon"></span>
-                </Form>
+            <div className="form-group has-search search-field ">
+                <input type="text" className="form-control"  placeholder= {this.props.placeholder} />
+                <span className="fa fa-search form-control-feedback"></span>
             </div>
         )
     }
